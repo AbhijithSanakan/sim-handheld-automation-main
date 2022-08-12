@@ -1,0 +1,11 @@
+QA1:
+  Application_url_Apro: https://cwsqa01.corp.advancestores.com:2443/webapp/wcs/stores/servlet/LogonForm?catalogId=10051&storeId=10151&langId=-1
+  APRO_username: "auto_adm103"
+  APRO_password: "4DE8f/+R6m0+NanLkPQe3dSMTCAGgpLL"
+  Application_url_Weblink: http://qa-web01.gpi.com/Weblink_2_0/login.jsp
+  Weblink_username: "Testedata1"
+  Weblink_password: "ehP1Yd2IiP+TTYA4FRKxH+f85p6RWPZJ"
+QA3:
+  Application_url_Apro: https://cwsqa03.corp.advancestores.com:2443/webapp/wcs/stores/servlet/LogonForm?catalogId=10051&storeId=10151&langId=-1
+  APRO_username: "auto_adm103"
+  APRO_password: "4DE8f/+R6m0+NanLkPQe3dSMTCAGgpLL"

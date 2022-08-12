@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4b15c93-a55b-4aaa-8793-daa01d87409b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DFYpCJyoUIRnDj6CunhbDcg0Fa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.framework.automation.test.pages" />
+      <recent name="com.framework.automation.test.stepdefs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abhijith.sanakan\Downloads\sim-handheld-automation-main\sim-handheld-automation-main\src" />
+      <recent name="C:\Users\abhijith.sanakan\Downloads\sim-handheld-automation-main\sim-handheld-automation-main\src\main\java\com\framework\automation\wrapper\asserts" />
+      <recent name="C:\Users\abhijith.sanakan\Downloads\sim-handheld-automation-main\sim-handheld-automation-main\src\test\java\com\framework\automation\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.framework.automation.wrapper.ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: To verify Back and Discard button functionality on Daily Totals screen">
+    <configuration name="Scenario: To verify Back and Discard button functionality on Daily Totals screen" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/DepartmentActuals/DepartmentActuals.feature" />
+      <option name="GLUE" value="com.framework.automation.tests com.framework.automation.test.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CUCUMBER_TESTNG_FRAMEWORK" />
+      <option name="NAME_FILTER" value="^To verify Back and Discard button functionality on Daily Totals screen$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^To verify Back and Discard button functionality on Daily Totals screen$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: To verify Back and Discard button functionality on Daily Totals screen" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: To verify Department Actuals app is working" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Features/DepartmentActuals/DepartmentActuals.feature" />
+      <option name="GLUE" value="com.framework.automation.test.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CUCUMBER_TESTNG_FRAMEWORK" />
+      <option name="NAME_FILTER" value="^To verify Department Actuals app is working$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^To verify Department Actuals app is working$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: To verify Department Actuals app is working" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: To verify Back and Discard button functionality on Daily Totals screen" />
+        <item itemvalue="Cucumber Java.Scenario: To verify Department Actuals app is working" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4b15c93-a55b-4aaa-8793-daa01d87409b" name="Changes" comment="" />
+      <created>1660296483237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660296483237</updated>
+    </task>
+    <servers />
+  </component>
+</project>

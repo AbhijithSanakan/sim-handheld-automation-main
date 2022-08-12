@@ -1,0 +1,29 @@
+SearchPage:
+
+  txtPrimarySearch:
+    android_type: "id"
+    android_value: "sample locator value"
+    ios_type: "id"
+    ios_value: "sample locator value"
+
+  btnSearchIconBtn:
+    android_type: "id"
+    android_value: "sample locator value"
+    ios_type: "id"
+    ios_value: "sample locator value"
+
+
+
+HomePage:
+
+  txtPrimarySearch:
+    android_type: "id"
+    android_value: "sample locator value"
+    ios_type: "id"
+    ios_value: "sample locator value"
+
+  btnSearchIconBtn:
+    android_type: "id"
+    android_value: "sample locator value"
+    ios_type: "id"
+    ios_value: "sample locator value"

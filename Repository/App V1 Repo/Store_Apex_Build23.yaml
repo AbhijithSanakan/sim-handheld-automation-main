@@ -1,0 +1,13 @@
+###############################Login Page#################################################################################
+LoginComponent:
+  txtUserName:
+    id: "userName"
+    xpath: ""
+  txtPassword:
+    id: "password"
+  btnLogin:
+    id: "loginButton"
+  btnExtraOKButton:
+    id: "releaseBtn"
+
+#############################End of the document#########################################################################
