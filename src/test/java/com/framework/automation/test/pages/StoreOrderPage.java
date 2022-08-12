@@ -56,7 +56,7 @@ public class StoreOrderPage {
 
     public static void placeStoreOrder() throws InterruptedException {
         testCase = 37;
-        keys = "UPC List 1";
+        keys = "UPC 1";
 
         //Selecting Store Order
         MobileElement storeOrder = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ExpandableListView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.GridView/android.view.ViewGroup[2]/android.widget.TextView");
@@ -131,7 +131,7 @@ public class StoreOrderPage {
         }
 
         //Adding UPC2
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upc.click();
         upc.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
         action.sendKeys(Keys.ENTER).perform();
@@ -258,7 +258,7 @@ public class StoreOrderPage {
 
     public static void storeOrderScreenVerify() throws InterruptedException, IOException {
         testCase = 40;
-        keys = "UPC List 1";
+        keys = "UPC 1";
 
         //Selecting Store Order
         MobileElement storeOrder = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ExpandableListView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.GridView/android.view.ViewGroup[2]/android.widget.TextView");
@@ -348,7 +348,7 @@ public class StoreOrderPage {
         }
 
         //Adding Valid UPC
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upc.click();
         upc.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
         action.sendKeys(Keys.ENTER).perform();

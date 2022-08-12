@@ -59,7 +59,7 @@ public class FreeCountPage {
 
     public static void FreeCountNoBackup() throws InterruptedException {
         testCase = 106;
-        keys = "UPC List 1";
+        keys = "UPC 1";
 
         //Free Count Page
         actualText = driver.findElement(By.id("com.sof.retail:id/toolBarHeader")).getText();
@@ -146,7 +146,7 @@ public class FreeCountPage {
         driver.findElement(By.id("com.sof.retail:id/itemDelete")).click();
 
         //Scanning Another Item
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upcScan.click();
         upcScan.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
         action.sendKeys(Keys.ENTER).perform();

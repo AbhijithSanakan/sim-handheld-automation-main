@@ -167,7 +167,7 @@ public class StoreTransferOutPage {
         System.out.println("Status is " + backBtn + " for Next Button");
 
         //Entering Invalid UPC
-        keys = "UPC List 1";
+        keys = "UPC 1";
         MobileElement upcScan = (MobileElement) driver.findElementById("com.sof.retail:id/upcScanText");
         upcScan.click();
         upcScan.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
@@ -184,7 +184,7 @@ public class StoreTransferOutPage {
             Thread.sleep(3000);
         }
 
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upcScan.click();
         upcScan.clear();
         upcScan.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
@@ -277,7 +277,7 @@ public class StoreTransferOutPage {
 
         }
 
-        keys = "UPC List 3";
+        keys = "UPC 3";
         upcScan.click();
         upcScan.clear();
         upcScan.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
@@ -385,7 +385,7 @@ public class StoreTransferOutPage {
         TestAsserts.assertCheck(actualText, expectedText);
         Thread.sleep(2000);
 
-        keys = "UPC List 1";
+        keys = "UPC 1";
         MobileElement upcScan = (MobileElement) driver.findElementById("com.sof.retail:id/upcScanText");
         upcScan.click();
         upcScan.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
@@ -599,7 +599,7 @@ public class StoreTransferOutPage {
         TestAsserts.assertCheck(actualText, expectedText);
         Thread.sleep(2000);
 
-        keys = "UPC List 1";
+        keys = "UPC 1";
         MobileElement upcScan = (MobileElement) driver.findElementById("com.sof.retail:id/upcScanText");
         upcScan.click();
         upcScan.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));

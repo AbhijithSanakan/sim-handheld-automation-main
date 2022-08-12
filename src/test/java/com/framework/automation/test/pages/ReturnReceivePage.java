@@ -323,7 +323,7 @@ public class ReturnReceivePage {
                     nxtBtn.click();
 
                     //Scan Items
-                    keys = "UPC List 1";
+                    keys = "UPC 1";
                     MobileElement item1 = driver.findElement(By.id("com.sof.retail:id/upcScanText"));
                     item1.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
                     Actions action = new Actions(driver);
@@ -339,7 +339,7 @@ public class ReturnReceivePage {
                     action.sendKeys(Keys.ENTER).perform();
 
                     //Adding second item using Scan
-                    keys = "UPC List 2";
+                    keys = "UPC 2";
                     MobileElement scanUpc = (MobileElement) driver.findElementById("com.sof.retail:id/imageButton");
                     scanUpc.click();
                     MobileElement upcTxtBox = (MobileElement) driver.findElementById("com.sof.retail:id/dialogEditText");
@@ -973,7 +973,7 @@ public class ReturnReceivePage {
         Thread.sleep(3000);
 
         //Scan Items
-        keys = "UPC List 1";
+        keys = "UPC 1";
         MobileElement item1 = driver.findElement(By.id("com.sof.retail:id/upcScanText"));
         item1.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
         Actions action = new Actions(driver);

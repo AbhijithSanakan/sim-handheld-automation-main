@@ -52,7 +52,7 @@ public class DSDOrderPage {
 
     public static void placeDsdOrder() throws InterruptedException {
         testCase = 38;
-        keys = "UPC List 1";
+        keys = "UPC 1";
 
         //Selecting DSD Order
         MobileElement dsdOrderClick = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ExpandableListView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.GridView/android.view.ViewGroup[3]/android.widget.TextView");
@@ -122,7 +122,7 @@ public class DSDOrderPage {
         System.out.println("Status is " +sug+ " for Suggested Quantity, Sug Value - " +sugValue);
 
         //Adding UPC2
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upc.click();
         upc.sendKeys(ExcelHandle.ExcelFunction(testCase,keys));
         action.sendKeys(Keys.ENTER).perform();
@@ -136,7 +136,7 @@ public class DSDOrderPage {
         System.out.println(addedItemDescName+ " is added to dropdown with Pack - " +addedItemPack+ " & Qty - " +addedItemQty);
 
         //Adding 3rd Item
-        keys = "UPC List 3";
+        keys = "UPC 3";
         upc.click();
         upc.sendKeys(ExcelHandle.ExcelFunction(testCase,keys));
         action.sendKeys(Keys.ENTER).perform();
@@ -265,7 +265,7 @@ public class DSDOrderPage {
 
     public static void placeDsdOrderNegative () throws InterruptedException {
         testCase = 39;
-        keys = "UPC List 1";
+        keys = "UPC 1";
 
         //Selecting DSD Order
         MobileElement dsdOrderClick = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ExpandableListView/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.GridView/android.view.ViewGroup[3]/android.widget.TextView");
@@ -327,7 +327,7 @@ public class DSDOrderPage {
         System.out.println("Status is " +sug+ " for Suggested Quantity, Sug Value - " +sugValue);
 
         //Adding UPC2
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upc.click();
         upc.sendKeys(ExcelHandle.ExcelFunction(testCase,keys));
         action.sendKeys(Keys.ENTER).perform();

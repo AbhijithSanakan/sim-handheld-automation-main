@@ -45,7 +45,7 @@ public class LabelPrintingPage {
 
     public static void LabPrintVerify() throws InterruptedException {
         testCase = 90;
-        keys = "UPC List 3";
+        keys = "UPC 3";
         //Clicking Lable Printing
         MobileElement labPrint = (MobileElement) driver.findElementById("com.sof.retail:id/textViewItem");
         labPrint.click();
@@ -115,7 +115,7 @@ public class LabelPrintingPage {
         Thread.sleep(14000);
 
         //Scanning already added item again
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upc.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
         action.sendKeys(Keys.ENTER).perform();
         Thread.sleep(8000);
@@ -426,7 +426,7 @@ public class LabelPrintingPage {
 
     public static void LabPrintDelRestore() throws InterruptedException {
         testCase = 96;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Lable Printing
         MobileElement labPrint = (MobileElement) driver.findElementById("com.sof.retail:id/textViewItem");
         labPrint.click();
@@ -495,7 +495,7 @@ public class LabelPrintingPage {
         }
 
         //Adding another UPC
-        keys = "UPC List 2";
+        keys = "UPC 2";
         upc.sendKeys(ExcelHandle.ExcelFunction(testCase, keys));
         action.sendKeys(Keys.ENTER).perform();
         Thread.sleep(8000);

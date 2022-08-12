@@ -46,7 +46,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupClick() throws InterruptedException {
         testCase = 66;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();
@@ -115,7 +115,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupClickInvalidUpc() throws InterruptedException {
         testCase = 68;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();
@@ -153,7 +153,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupOrder() throws InterruptedException {
         testCase = 70;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();
@@ -242,7 +242,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupRecent() throws InterruptedException {
         testCase = 72;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();
@@ -297,7 +297,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupSales() throws InterruptedException, IOException {
         testCase = 74;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();
@@ -361,7 +361,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupMovement() throws InterruptedException, IOException {
         testCase = 76;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();
@@ -436,7 +436,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupActions() throws InterruptedException {
         testCase = 78;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();
@@ -557,7 +557,7 @@ public class DROrdersOptionsMenuPage {
 
     public static void ItemLookupPrices() throws InterruptedException {
         testCase = 102;
-        keys = "UPC List 1";
+        keys = "UPC 1";
         //Clicking Item Lookup
         MobileElement itemLookUpClick = (MobileElement) driver.findElement(By.id("com.sof.retail:id/nav_item_look_up"));
         itemLookUpClick.click();

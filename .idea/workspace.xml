@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b15c93-a55b-4aaa-8793-daa01d87409b" name="Changes" comment="" />
+    <list default="true" id="e4b15c93-a55b-4aaa-8793-daa01d87409b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DROrdersOptionsMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DROrdersOptionsMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DSDOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DSDOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/FreeCountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/FreeCountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/LabelPrintingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/LabelPrintingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/ReturnReceivePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/ReturnReceivePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreTransferOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreTransferOutPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2DFYpCJyoUIRnDj6CunhbDcg0Fa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -109,5 +122,28 @@
       <updated>1660296483237</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
