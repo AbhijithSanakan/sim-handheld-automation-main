@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b15c93-a55b-4aaa-8793-daa01d87409b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DROrdersOptionsMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DROrdersOptionsMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DSDOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/DSDOrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/FreeCountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/FreeCountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/LabelPrintingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/LabelPrintingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/ReturnReceivePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/ReturnReceivePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreOrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreTransferOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/pages/StoreTransferOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/stepdefs/T103ReportSumrepPrntStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/automation/test/stepdefs/T103ReportSumrepPrntStepdefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +26,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2DFYpCJyoUIRnDj6CunhbDcg0Fa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -145,5 +133,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

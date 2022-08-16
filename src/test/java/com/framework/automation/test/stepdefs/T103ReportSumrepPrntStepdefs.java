@@ -31,6 +31,7 @@ public class T103ReportSumrepPrntStepdefs {
     @Given("User Verify Login and Reach To Select Hamburger Icon")
     public void user_Verify_Login_and_Reach_To_Select_Hamburger_Icon() throws IOException, InterruptedException {
 
+        System.out.println("Logging in");
         this.driver = Login.LoginDriver();
         Thread.sleep(10000);
 
